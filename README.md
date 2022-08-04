@@ -23,10 +23,10 @@ scatterplot with Assets on the y-axis and Profits on the x-axis
 
 ### Polynomial models
 
-https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot06.png
+![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot06.png)
 
 adding the regression line of the polynomial model
-https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot08.png
+![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot08.png)
 
 Smooth spline
-https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot09.png
+![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot09.png)
