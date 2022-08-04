@@ -27,5 +27,5 @@ polynomial model (linear, quadratic, cubic and quartic models)
 adding the regression line of the polynomial model
 ![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot08.png)
 
-Smooth spline
+regression line (in orange) to the plot with the regression lines for the linear and quartic model.
 ![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot09.png)
