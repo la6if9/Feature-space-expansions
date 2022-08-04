@@ -21,8 +21,7 @@ The aim is to select the best model for predicting Assets from Profit. we perfor
 scatterplot with Assets on the y-axis and Profits on the x-axis
 ![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot05.png)
 
-### Polynomial models
-
+polynomial model (linear, quadratic, cubic and quartic models)
 ![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot06.png)
 
 adding the regression line of the polynomial model
