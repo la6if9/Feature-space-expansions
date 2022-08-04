@@ -18,6 +18,7 @@ fitting a cubic spline with a single, well placed knot
 ## Fortune500 data
 The aim is to select the best model for predicting Assets from Profit. we perform a 10-fold cross-validation for each model using the entire sample, and select the model with the lowest cross-validated RMSE.
 
+
 scatterplot with Assets on the y-axis and Profits on the x-axis
 ![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot05.png)
 
@@ -34,6 +35,7 @@ regression line (in orange) to the plot with the regression lines for the linear
 
 ### Regression trees
 A regression tree partitions the variable Profits in on-overlapping regions, and assigns mean of Assets within each region as predicted value.
+
 ![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot10.png)
 
 trees tend to overfit, so we perform cross-validation on the tree object to find the optimal value for the hyperparameter cp
