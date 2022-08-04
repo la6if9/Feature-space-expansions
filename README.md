@@ -21,7 +21,9 @@ The aim is to select the best model for predicting Assets from Profit. we perfor
 scatterplot with Assets on the y-axis and Profits on the x-axis
 ![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot05.png)
 
-polynomial model (linear, quadratic, cubic and quartic models)
+### Polynomial model
+
+linear, quadratic, cubic and quartic models
 ![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot06.png)
 
 adding the regression line of the polynomial model
@@ -29,3 +31,17 @@ adding the regression line of the polynomial model
 
 regression line (in orange) to the plot with the regression lines for the linear and quartic model.
 ![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot09.png)
+
+### Regression trees
+A regression tree partitions the variable Profits in on-overlapping regions, and assigns mean of Assets within each region as predicted value.
+![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot10.png)
+
+trees tend to overfit, so we perform cross-validation on the tree object to find the optimal value for the hyperparameter cp
+
+scatter plot prediction, and adding the regression line of of the tree (in purple)
+![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot11.png)
+
+### KNN
+
+scatter plot, adding the KNN regression line of the tree (in brown).
+![](https://github.com/la6if9/Feature-space-expansions/blob/main/Rplot12.png)
